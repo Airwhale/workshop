@@ -4,8 +4,9 @@ import os
 import numpy as np
 
 #attempted to do a linear regression here.  If i had more time I would create dummy variables for 
-# city zone, and place pandas or scipy so I can get p values, etc.  If I had a lot more time I would 
-# find a better way to fit then linear regression
+# city zone, and place pandas or scipy in the docker container so I can get p values, etc. 
+# (had some problems setting that up)  If I had a lot more time I would 
+# test better models then linear regression
 
 json_url = 'https://raw.githubusercontent.com/bogdanfazakas/datasets/refs/heads/main/data.json'
 output_folder = '/data/outputs'
